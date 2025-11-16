@@ -64,7 +64,7 @@ education:
     #   Specialized in machine learning and robotics.
   - area: BEng Software Engineering
     institution: Wuhan University
-    icon: "" # whu-logo.svg
+    icon: custom/whu-logo
     date_start: 2021-09-01
     date_end: 2025-06-30
     summary: |
