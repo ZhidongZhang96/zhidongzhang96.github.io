@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: 张志东
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: 'Zhāng Zhì Dōng'
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Zhidong
+last_name: Zhang
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,122 +23,140 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Master Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Tübingen
+    url: https://www.uni-tuebingen.de/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:zhidong.zhang96@foxmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/ZhangZhidong
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/ZhidongZhang96
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/zhidong-zhang-136a94311/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=weFOAukAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0004-7009-3369
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Computational Neuroscience
+  - Artificial Intelligence
+  - Memory and Learning
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: MS Computational Neuroscience
+    institution: University of Tübingen
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
-    summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+    date_start: 2025-10-01
+    date_end: 2027-10-01 
+    # summary: |
+    #   GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    #   Specialized in machine learning and robotics.
+  - area: BEng Software Engineering
+    institution: Wuhan University
+    icon: "" # whu-logo.svg
+    date_start: 2021-09-01
+    date_end: 2025-06-30
     summary: |
-      GPA: 3.9/4.0
+      GPA: 3.73/4.0
 
-      Minored in Mathematics. President of AI Club.
+      Courses included:
+      - Advanced Mathmatics, Discrete Mathematics, Linear Algebra, Probability & Statistics.
+      - Data Structures, Computer Organization, Operating Syustems, Database Systems, Computer Networks.
+      - Machine Learning
+  # - area: PhD Computer Science (AI Focus)
+  #   institution: Stanford University
+  #   icon: ""
+  #   date_start: 2015-09-01
+  #   date_end: 2019-06-30
+  #   summary: |
+  #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com/thesis.pdf'
+
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
+  - position: RNN Analysis on Same-Different Task 
+    company_name: Chinese University of Hong Kong
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-09-01
+    date_end: 2024-11-01
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Advisor: [Dr. Xiangbin Teng](https://www.psy.cuhk.edu.hk/index.php/component/sppagebuilder/?view=page&id=558)
+      - **Model Training**: Trained RNNs on the same-different task under varying noise levels by neurogym, optimizing the code for readability and extensibility.
+      - **Model Analysis**: Analyzed normalized averages and principal components (PCA) of RNN hidden states, performed linear fitting of activities at different time points to stimuli values, and analyzed the temporal scope.
+  - position: Large Model Based Crossmodal Chinese Poetry Creation
+    company_name: School of Computer Science, Wuhan University
+    company_url: 'https://cs.whu.edu.cn/'
+    company_logo: ''
+    date_start: 2024-07-01
+    date_end: 2024-10-01
+    summary: |2-
+      Advisor: [Dr. Weiping Zhu](https://cs.whu.edu.cn/info/1019/2920.htm)
+      - **System Development**: Led the development of modules supporting cross-modal text and image inputs, enhancing iterative optimization mechanisms.
+      - **System Evaluation**: Evaluated poem quality across different input modalities and optimization on three poem sets.
+  - position: Data Analysis on Forward Flow Task
+    company_name: NKLCNL, Beijing Normal University
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-04-01
+    date_end: 2024-06-01
+    summary: |2-
+      Advisor: [Prof. Yunzhe Liu](https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm)
+      - **Data Prepocessing**: Pre-processed word data for forward flow tasks, inserting seed words, removing duplicates, and generating embeddings.
+      - **Correlation Analysis**: Analyzed the correlation between participants’ scale scores and statistical indicators, including sequence length, embedding similarity, optimality divergence, semantic distance range, and “forward flow”.
+
+  # - position: AI Research Intern
+  #   company_name: OpenAI
+  #   company_url: 'https://openai.com/'
+  #   icon: ''
+  #   date_start: 2019-06-01
+  #   date_end: 2019-12-31
+  #   summary: |
+  #     Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
-        percent: 95
+        percent: 80
         icon: code-bracket
       - name: Machine Learning
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Hiking
         description: ''
-        percent: 80
+        percent: 60
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Reading
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
+        percent: 60
         icon: book-open
 
 languages:
-  - name: English
+  - name: Chinese (Mandarin)
     percent: 100
-  - name: Spanish
+  - name: English
     percent: 50
 
 # Awards.
@@ -146,27 +164,40 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: 'Student of Computational Neuroscience'
+    url: https://compneuro.neuromatch.io
+    certificate_url: https://portal.neuromatchacademy.org/certificate/d83ba21d-39f6-4a09-a00f-15e6efa22bcd
+    date: '2024-07-27'
+    awarder: NeuroMatch Academy
+    icon: custom/nma-dark
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      I studied the foundational concept of computational neuroscience through active learning in groups.
+      The curriculum spans most areas of computational neuroscience, including Machine Learning, Dynamical Systems, Stochastic Processes, and how to model. To finish the course, I worked with partners on the project [The Working Memory Capacity of RNN]({{< relref "projects/working-memory-capacity-of-rnn/" >}}).
+
+  # - title: Best Paper Award
+  #   url: https://neurips.cc/
+  #   date: '2022-12-01'
+  #   awarder: NeurIPS
+  #   icon: hero/trophy
+  #   summary: |
+  #     Awarded for groundbreaking work on efficient training of large models.
+  # - title: AI Innovation Grant
+  #   url: https://www.nsf.gov/
+  #   date: '2021-06-15'
+  #   awarder: National Science Foundation
+  #   icon: hero/currency-dollar
+  #   summary: |
+  #     $500,000 grant for research in ethical AI development.
+  # - title: Outstanding PhD Thesis
+  #   url: https://www.stanford.edu/
+  #   date: '2019-06-30'
+  #   awarder: Stanford University
+  #   icon: hero/academic-cap
+  #   summary: |
+  #     Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+
+Zhidong Zhang (**张志东**) is a master student in Computational Neuroscience at University of Tübingen. He obtained his bachelor's degree in Software Engineering from Wuhan University in 2025. 
+
+I am fascinated by the complexity of human brain cognition (e.g. working memory, decision-making, learning, and emotion), and I look forward to working at the intersection of neuroscience and computer science to advance our understanding of biological and artificial intelligence.
